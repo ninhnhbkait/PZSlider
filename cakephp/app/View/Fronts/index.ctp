@@ -3,7 +3,7 @@
 			<div id="header">
 				<div id="logo">
 					<a href="index.html">
-					<?php echo $this->Html->image('/front-end/images/logo.png', array('alt'=>'LOGO'))?>
+					<?php echo $this->Html->image("/front-end/images/logo.png", array('alt'=>'LOGO'))?>
 					</a>
 				</div>
 				<div id="navigation">
@@ -70,7 +70,8 @@
 							<input type="submit" value="Find My Pair!" class="button">
 						</form>
 					</div>
-					<?php echo $this->Html->image("/front-end/images/shop-now.jpg", array('alt'=>'Promo','style'=>'height:355px;width:618';))?>
+					<img src="images/" height="355" width="618" alt="Promo">
+					<?php echo $this->Html->image("/front-end/images/shop-now.jpg", array('alt'=>'Promo', 'style'=>'height:355px;width:618px;'))?>
 					<a href="index.html" class="button"></a> <span></span>
 				</div>
 				<div id="main">
@@ -78,24 +79,16 @@
 						<h4><span>Featured Items</span></h4>
 						<ul class="items">
 							<li>
-								<a href="product.html">
-								<?php echo $this->Html->image("/front-end/images/leather-boots.jpg", array('alt'=>'Img'))?>
-								<span>$19.50</span> Cheverlyn Zespax </a>
+								<a href="product.html"> <?php echo $this->Html->image("/front-end/images/leather-boots.jpg", array('alt'=>'Img'))?> <span>$19.50</span> Cheverlyn Zespax </a>
 							</li>
 							<li>
-								<a href="product.html">
-								<?php echo $this->Html->image("/front-end/images/leather-boots.jpg", array('alt'=>'Img'))?>
-								<span>$19.50</span> Cheverlyn Zespax </a>
+								<a href="product.html"> <?php echo $this->Html->image("/front-end/images/leather-boots.jpg", array('alt'=>'Img'))?> <span>$19.50</span> Cheverlyn Zespax </a>
 							</li>
 							<li>
-								<a href="product.html">
-								<?php echo $this->Html->image("/front-end/images/leather-boots.jpg", array('alt'=>'Img'))?>
-								<span>$19.50</span> Cheverlyn Zespax </a>
+								<a href="product.html"> <?php echo $this->Html->image("/front-end/images/leather-boots.jpg", array('alt'=>'Img'))?> <span>$19.50</span> Cheverlyn Zespax </a>
 							</li>
 							<li>
-								<a href="product.html">
-								<?php echo $this->Html->image("/front-end/images/leather-boots.jpg", array('alt'=>'Img'))?>
-								<span>$19.50</span> Cheverlyn Zespax </a>
+								<a href="product.html"> <?php echo $this->Html->image("/front-end/images/leather-boots.jpg", array('alt'=>'Img'))?> <span>$19.50</span> Cheverlyn Zespax </a>
 							</li>
 						</ul>
 					</div>
@@ -103,24 +96,16 @@
 						<h4><span>Sale Items</span></h4>
 						<ul class="items">
 							<li>
-								<a href="product.html">
-								<?php echo $this->Html->image("/front-end/images/boots-brown.jpg", array('alt'=>'Img'))?>
-								<span>$8.50</span> Hukbalahap Boots </a>
+								<a href="product.html"> <?php echo $this->Html->image("/front-end/images/boots-brown.jpg", array('alt'=>'Img'))?> <span>$8.50</span> Hukbalahap Boots </a>
 							</li>
 							<li>
-								<a href="product.html">
-								<?php echo $this->Html->image("/front-end/images/boots-violet.jpg", array('alt'=>'Img'))?>
-								<span>$8.50</span> Hukbalahap Boots </a>
+								<a href="product.html"> <?php echo $this->Html->image("/front-end/images/boots-violet.jpg", array('alt'=>'Img'))?> <span>$8.50</span> Hukbalahap Boots </a>
 							</li>
 							<li>
-								<a href="product.html"> 
-								<?php echo $this->Html->image("/front-end/images/boots-yellow.jpg", array('alt'=>'Img'))?>
-								<span>$8.50</span> Hukbalahap Boots </a>
+								<a href="product.html"> <?php echo $this->Html->image("/front-end/images/boots-yellow.jpg", array('alt'=>'Img'))?> <span>$8.50</span> Hukbalahap Boots </a>
 							</li>
 							<li>
-								<a href="product.html">
-								<?php echo $this->Html->image("/front-end/images/boots-green.jpg", array('alt'=>'Img'))?>
-								<span>$8.50</span> Hukbalahap Boots </a>
+								<a href="product.html"> <?php echo $this->Html->image("/front-end/images/boots-green.jpg", array('alt'=>'Img'))?> <span>$8.50</span> Hukbalahap Boots </a>
 							</li>
 						</ul>
 					</div>
