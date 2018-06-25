@@ -1,0 +1,1 @@
+<div id="def" style="color: blue;" class="ex"><?php echo $message; ?></div>
